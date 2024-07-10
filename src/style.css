@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefe4e;
+  border: 2px solid rgb(91, 91, 91);
+  border-radius: 16px;
+}
+
+.container h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 1rem;
+}
+
+.Amount,
+.dropdown,
+.from,
+.to,
+.select-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Amount {
+  margin: 1rem;
+}
+
+.Msg {
+  text-align: center;
+  margin: 1rem;
+}
+
+#btn {
+  font-size: 1rem;
+  background-color: rgb(199, 255, 255);
+  width: 100%;
+  border-radius: 54px;
+  padding: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(121, 193, 194);
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: rgb(175, 237, 237);
+}
+
+.Amount input,
+#fromCountry,
+#toCountry {
+  font-size: 1rem;
+}
